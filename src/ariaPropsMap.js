@@ -41,6 +41,9 @@ const properties: ARIAPropertyDefinitions = [
   ['aria-colindex', {
     type: 'integer',
   }],
+  ['aria-colindextext', {
+    type: 'string',
+  }],
   ['aria-colspan', {
     type: 'integer',
   }],
@@ -193,6 +196,9 @@ const properties: ARIAPropertyDefinitions = [
   }],
   ['aria-rowindex', {
     type: 'integer',
+  }],
+  ['aria-rowindextext', {
+    type: 'string',
   }],
   ['aria-rowspan', {
     type: 'integer',

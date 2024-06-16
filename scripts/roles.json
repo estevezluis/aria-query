@@ -378,6 +378,7 @@
       "aria-atomic",
       "aria-busy",
       "aria-colindex",
+      "aria-colindextext",
       "aria-colspan",
       "aria-controls",
       "aria-current",
@@ -395,6 +396,7 @@
       "aria-relevant",
       "aria-roledescription",
       "aria-rowindex",
+      "aria-rowindextext",
       "aria-rowspan"
     ],
     "relatedConcepts": [
@@ -516,6 +518,7 @@
       "aria-atomic",
       "aria-busy",
       "aria-colindex",
+      "aria-colindextext",
       "aria-colspan",
       "aria-controls",
       "aria-current",
@@ -540,6 +543,7 @@
       "aria-required",
       "aria-roledescription",
       "aria-rowindex",
+      "aria-rowindextext",
       "aria-rowspan",
       "aria-selected",
       "aria-sort"
@@ -3289,6 +3293,7 @@
       "aria-atomic",
       "aria-busy",
       "aria-colindex",
+      "aria-colindextext",
       "aria-colspan",
       "aria-controls",
       "aria-current",
@@ -3313,6 +3318,7 @@
       "aria-required",
       "aria-roledescription",
       "aria-rowindex",
+      "aria-rowindextext",
       "aria-rowspan",
       "aria-selected"
     ],
@@ -4866,6 +4872,7 @@
       "aria-atomic",
       "aria-busy",
       "aria-colindex",
+      "aria-colindextext",
       "aria-controls",
       "aria-current",
       "aria-describedby",
@@ -4886,6 +4893,7 @@
       "aria-relevant",
       "aria-roledescription",
       "aria-rowindex",
+      "aria-rowindextext",
       "aria-selected",
       "aria-setsize"
     ],
@@ -4967,6 +4975,7 @@
       "aria-atomic",
       "aria-busy",
       "aria-colindex",
+      "aria-colindextext",
       "aria-colspan",
       "aria-controls",
       "aria-current",
@@ -4991,6 +5000,7 @@
       "aria-required",
       "aria-roledescription",
       "aria-rowindex",
+      "aria-rowindextext",
       "aria-rowspan",
       "aria-selected",
       "aria-sort"

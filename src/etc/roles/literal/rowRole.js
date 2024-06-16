@@ -13,10 +13,12 @@ const rowRole: ARIARoleDefinition = {
   prohibitedProps: [],
   props: {
     'aria-colindex': null,
+    'aria-colindextext': null,
     'aria-expanded': null,
     'aria-level': null,
     'aria-posinset': null,
     'aria-rowindex': null,
+    'aria-rowindextext': null,
     'aria-selected': null,
     'aria-setsize': null,
   },

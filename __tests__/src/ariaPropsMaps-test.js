@@ -12,6 +12,7 @@ const entriesList = [
   ['aria-checked', {'type': 'tristate'}],
   ['aria-colcount', {type: 'integer',}],
   ['aria-colindex', {type: 'integer',}],
+  ['aria-colindextext', {type: 'string',}],
   ['aria-colspan', {type: 'integer',}],
   ['aria-controls', {'type': 'idlist'}],
   ['aria-current', {type: 'token',values: ['page','step','location','date','time',true,false,],}],
@@ -46,6 +47,7 @@ const entriesList = [
   ['aria-roledescription', {type: 'string',}],
   ['aria-rowcount', {type: 'integer',}],
   ['aria-rowindex', {type: 'integer',}],
+  ['aria-rowindextext', {type: 'string',}],
   ['aria-rowspan', {type: 'integer',}],
   ['aria-selected', {'type': 'boolean','allowundefined': true}],
   ['aria-setsize', {'type': 'integer'}],
@@ -132,7 +134,7 @@ describe('ariaPropsMap', function () {
     });
     describe('spread operator', function () {
       it('should have a specific length', function () {
-        expect(ariaPropsMap.entries().length).toEqual(51);
+        expect(ariaPropsMap.entries().length).toEqual(53);
       });
       test.each([...ariaPropsMap])('Testing prop: %s', (obj, roles) => {
         expect(entriesList).toEqual(
