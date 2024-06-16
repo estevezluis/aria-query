@@ -234,6 +234,7 @@ type ARIAProperty =
   | 'aria-brailleroledescription'
   | 'aria-colcount'
   | 'aria-colindex'
+  | 'aria-colindextext'
   | 'aria-colspan'
   | 'aria-controls'
   | 'aria-current'
@@ -262,6 +263,7 @@ type ARIAProperty =
   | 'aria-roledescription'
   | 'aria-rowcount'
   | 'aria-rowindex'
+  | 'aria-rowindextext'
   | 'aria-rowspan'
   | 'aria-setsize'
   | 'aria-sort'
@@ -282,6 +284,7 @@ type ARIAPropertyMap = {|
   'aria-checked'?: mixed,
   'aria-colcount'?: mixed,
   'aria-colindex'?: mixed,
+  'aria-colindextext'?: mixed,
   'aria-colspan'?: mixed,
   'aria-controls'?: mixed,
   'aria-current'?: ?ARIAPropertyCurrent,
@@ -316,6 +319,7 @@ type ARIAPropertyMap = {|
   'aria-roledescription'?: mixed,
   'aria-rowcount'?: mixed,
   'aria-rowindex'?: mixed,
+  'aria-rowindextext'?: mixed,
   'aria-rowspan'?: mixed,
   'aria-selected'?: mixed,
   'aria-setsize'?: mixed,

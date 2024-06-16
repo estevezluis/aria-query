@@ -17,6 +17,7 @@ const entriesList = [
   ['aria-checked', {'type': 'tristate'}],
   ['aria-colcount', {type: 'integer',}],
   ['aria-colindex', {type: 'integer',}],
+  ['aria-colindextext', {type: 'string',}],
   ['aria-colspan', {type: 'integer',}],
   ['aria-controls', {'type': 'idlist'}],
   ['aria-current', {type: 'token',values: ['page','step','location','date','time',true,false,],}],
@@ -51,6 +52,7 @@ const entriesList = [
   ['aria-roledescription', {type: 'string',}],
   ['aria-rowcount', {type: 'integer',}],
   ['aria-rowindex', {type: 'integer',}],
+  ['aria-rowindextext', {type: 'string',}],
   ['aria-rowspan', {type: 'integer',}],
   ['aria-selected', {'type': 'boolean','allowundefined': true}],
   ['aria-setsize', {'type': 'integer'}],
@@ -64,7 +66,7 @@ const entriesList = [
 test('ariaPropsMap API', (t) => {
   const predicate = (obj, [o]) => deepEqual(o, obj);
   
-  testIteration(t, ariaPropsMap, entriesList, 51, predicate);
+  testIteration(t, ariaPropsMap, entriesList, 53, predicate);
 
   testForEach(t, ariaPropsMap, entriesList, predicate);
 
